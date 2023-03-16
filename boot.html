@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sigup</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    form {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: ghostwhite;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+div.container {
+  margin-left: 475px;
+}
+.container a {
+  color:;
+}
+</style>
+<body class="container my-5 bg-info">
+	<form>
+	<div>
+    <div class="form-group">
+    	<h1>Signup Form</h1>
+    	<label for="fname">First Name:</label>
+    	<input type="text" class="form-control" id="fname" placeholder="first name" name="fname">
+    </div>
+    <div class="form-group">
+    	<label for="lname">Last Name:</label>
+    	<input type="text" class="form-control" id="lname" placeholder="last name" name="lname">
+    </div>
+    <div class="form-group">
+    	<label for="email">E-mail:</label>
+    	<input type="email" class="form-control" id="email" placeholder="e-mail" name="email">
+    </div>
+    <div class="form-group">
+    	<label for="password">Password:</label>
+    	<input type="password" class="form-control" id="password" placeholder="password" name="password">
+    </div>
+    <div class="form-group">
+    	<label for="confirm password">Confirm Password:</label>
+    	<input type="password" class="form-control" id="password" placeholder="password" name="password">
+    </div>
+    <div class="form-group form-check">
+    	<label class="form-check-label">
+    	<input class="form-check-input" type="checkbox" name="remember">Remember me</label>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit</button>
+</div>
+</form>
+<div class="container">
+<h6>
+  <small>Already a user?
+  <a class="hyper-link" href="#">Login</a></small>
+</h6>
+</div>
+</body>
+</html>
